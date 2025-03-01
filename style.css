@@ -85,7 +85,8 @@
   text-decoration: underline;
   position: absolute;
   top: 4rem;
-  right: 16rem;
+  right: 4rem;
+  left: 14rem;
   background-color: transparent;
   color: white;
   padding: 10px 20px;
@@ -171,7 +172,6 @@
         right: 13px;
         bottom: 10px;
         font-size: 8px;
-        padding: 6px 12px;
     }
     
     .fasting-countdown {
