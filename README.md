@@ -13,4 +13,4 @@
   <li>OpenAI</li>
   <li>Copilot</li>
 </ul>
-<h1>who has helped me create this project</h1>
+<p>who has helped me create this project</p>
