@@ -1,0 +1,117 @@
+/* Container for the main content */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a3033;
+}
+
+/* Center the h3 text */
+#jadwal-container h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2a3033;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2a3033;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styles specific to the container */
+.container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #218838;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table th {
+    background-color: #2a3033;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+table tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .container button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}

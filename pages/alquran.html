@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Quran dan Terjemahannya</title>
+    <link rel="stylesheet" href="../resource/css/alquran.css">
+    <link rel="stylesheet" href="../resource/css/navbar.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="">Ramadhan 2025</a>
+          </div>
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="./js.html">Jadwal Shalat</a></li>
+            <li><a href="#" class="active">Al Quran</a></li>
+            <li><a href="./kz.html">Kalkulator Zakat</a></li>
+            <li><a href="./cm.html">Cari Masjid</a></li>
+            <li><a href="./contact.html">Kontak</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main class="alquran-page">
+        <div class="container">
+            <h1>Al-Qur'an dengan Terjemahan</h1>
+            <select id="surah-list">
+                <option value="" selected disabled>Pilih Surah</option>
+            </select>
+            <div id="ayat-container"></div>
+        </div>
+    </main>
+    <script src="../resource/js/alquran.js"></script>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+        document.getElementById('nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

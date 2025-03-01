@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../resource/css/navbar.css">
+    <link rel="stylesheet" href="../resource/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="">Ramadhan 2025</a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="../index.html">Beranda</a></li>
+          <li><a href="./js.html">Jadwal Shalat</a></li>
+          <li><a href="./alquran.html">Al Quran</a></li>
+          <li><a href="./kz.html">Kalkulator Zakat</a></li>
+          <li><a href="./cm.html">Cari Masjid</a></li>
+          <li><a href="#" class="active">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>US</span>
+                </div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form-group">
+                  <input id="name" class="app-form-control" placeholder="NAME">
+                </div>
+                <div class="app-form-group">
+                  <input id="email" class="app-form-control" placeholder="EMAIL">
+                </div>
+                <div class="app-form-group">
+                  <input id="phone" class="app-form-control" placeholder="CONTACT NO">
+                </div>
+                <div class="app-form-group">
+                  <input id="subject" class="app-form-control" placeholder="SUBJECT">
+                </div>
+                <div class="app-form-group message">
+                  <input id="message" class="app-form-control" placeholder="MESSAGE">
+                </div>
+                <div class="app-form-group buttons">
+                  <button id="cancel-button" type="button" class="app-form-button">CANCEL</button>
+                  <button id="email-button" type="button" class="app-form-button">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info">
+            <h2>About the Creator</h2>
+            <p>Name: Azhar49 Project</p>
+            <p>Email: veritasstudiocreative@gmail.com</p>
+            <p>Follow us on social media:</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/azhar49.py?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.youtube.com/@azhar49shorts" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/azhar49.exe?igsh=ZzFremU4djAxcnF1" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@azhar49.exe" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </main>
+    
+    <script src="../resource/js/contact.js"></script>
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('nav-links').classList.toggle('active');
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+.landing-page {
+  position: relative;
+  text-align: center;
+}
+
+
+.banner-container {
+  position: relative;
+  text-align: center;
+}
+
+.banner-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner-link {
+  position: absolute;
+  font-weight: bold;
+  bottom: 6rem;
+  right: 19%;
+  background-color: #88F1C0;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  -webkit-transition: transform 0.2s ease, background-color 0.2s ease;
+  -moz-transition: transform 0.2s ease, background-color 0.2s ease;
+  -ms-transition: transform 0.2s ease, background-color 0.2s ease;
+  -o-transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.banner-link:hover {
+  background-color: #CACE39;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.timer {
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.timer h1 {
+  margin-bottom: 1rem;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 100%;
+}
+
+.countdown-item {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.countdown-item p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fasting-countdown {
+  text-decoration: underline;
+  position: absolute;
+  top: 4rem;
+  right: 16rem;
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.random-ayat {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.random-ayat h1 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.ayat-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ayat-container {
+  text-align: center;
+}
+
+.ayat-container p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+#ayat {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#surah-info {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+#ayat-translation {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
+       screen and (max-width: 768px) {
+    h1 {
+      font-size: 16px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-container {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .banner-link {
+        right: 13px;
+        bottom: 10px;
+        font-size: 8px;
+        padding: 6px 12px;
+    }
+    
+    .fasting-countdown {
+        top: 1px;
+        right: 1%;
+        font-size: 9px;
+    }
+
+    .timer, .random-ayat {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .timer h1 {
+      margin-bottom: 0.5rem;
+    }
+  
+    .random-ayat h1 {
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .countdown-item {
+      max-width: 60px;
+      padding: 0.5rem;
+    }
+
+    .countdown-item span {
+      font-size: 2rem; /* Ukuran angka lebih kecil */
+    }
+  
+    .countdown-item p {
+      font-size: 0.8rem; /* Ukuran teks lebih kecil */
+    }  
+  
+    .random-ayat {
+      width: 80%; /* Atur ukuran agar lebih fleksibel */
+      max-width: 700px; /* Batasi lebar maksimal */
+      margin: auto; /* Pusatkan elemen */
+    }
+    
+    .ayat-card {
+      width: 100%;
+      max-width: 650px; /* Batasi lebar */
+      padding: 1.5rem; /* Kurangi padding */
+      font-size: 1.2rem; /* Ukuran font lebih kecil */
+    }
+    
+    .ayat-container p {
+      font-size: 1.2rem; /* Ukuran teks lebih kecil */
+    }
+    
+    #ayat {
+      font-size: 1.5rem; /* Ukuran ayat utama lebih kecil */
+    }
+    
+    #surah-info, #ayat-translation {
+      font-size: 1.2rem; /* Ukuran info surah & terjemahan lebih kecil */
+    }
+    
+}

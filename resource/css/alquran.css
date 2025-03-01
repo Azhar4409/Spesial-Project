@@ -1,0 +1,55 @@
+.alquran-page body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+.alquran-page .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.alquran-page h1 {
+    color: #2c3e50;
+}
+.alquran-page select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.alquran-page .ayat {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ecf0f1;
+    text-align: right;
+    position: relative;
+}
+.alquran-page .ayat-number {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.alquran-page .arab {
+    font-size: 24px;
+    color: #2c3e50;
+    direction: rtl;
+    display: block;
+    text-align: right;
+    padding: 10px;
+}
+.alquran-page .terjemahan {
+    color: #34495e;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic;
+}

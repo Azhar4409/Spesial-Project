@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cari Masjid Terdekat</title>
+    <link rel="stylesheet" href="../resource/css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <style>
+      .cm-page body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      .cm-page #map {
+        height: calc(100vh - 60px); 
+        width: 100%;
+        position: relative;
+        z-index: 1;
+      }
+      .cm-page button {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="cm-page">
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="">Ramadhan 2025</a>
+          </div>
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="./js.html">Jadwal Shalat</a></li>
+            <li><a href="./alquran.html">Al Quran</a></li>
+            <li><a href="./kz.html">Kalkulator Zakat</a></li>
+            <li><a href="#" class="active">Cari Masjid</a></li>
+            <li><a href="./contact.html">Kontak</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 align="center" style="padding-top: 10px;">Peta Masjid Terdekat</h2>
+        <div id="map"></div>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="../resource/js/carimasjid.js"></script>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+        document.getElementById('nav-links').classList.toggle('active');
+        });
+    </script>
+  </body>
+</html>
