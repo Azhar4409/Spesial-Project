@@ -1,6 +1,6 @@
 # Spesial-Project
 
-<h1>Thanks to</h1>
+<p>Thanks to</p>
 <ul>
   <li>Allah</li>
   <li>Parent</li>
