@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const fastingStartDate = new Date('April 1, 2025');
-    const fastingEndDate = new Date('March 20, 2026');
+    const fastingStartDate = new Date('March 1, 2025');
+    const fastingEndDate = new Date('April 1, 2025);
     const today = new Date();
   
     let daysOfFasting = null;
