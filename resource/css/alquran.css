@@ -1,3 +1,10 @@
+body{
+    background-image: url(../img/background-alquran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .alquran-page body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -9,7 +16,7 @@
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background: white;
+    background: rgb(49, 139, 139);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,6 +29,7 @@
     margin-bottom: 20px;
     font-size: 16px;
 }
+
 .alquran-page .ayat {
     margin-bottom: 20px;
     padding: 15px;
